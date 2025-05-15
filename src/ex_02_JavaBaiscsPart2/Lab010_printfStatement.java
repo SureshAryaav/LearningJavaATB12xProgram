@@ -3,7 +3,8 @@ package ex_02_JavaBaiscsPart2;
 public class Lab010_printfStatement {
     public static void main(String[] args) {
         System.out.printf("Hello %s", "World");
-        
+        //printf -> `printf basically adds formatting to the output.`
+
         int age = 25;
         System.out.printf("My age is %d", age);
 

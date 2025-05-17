@@ -16,5 +16,7 @@ public class Lab002_comments {
         Multi line comment
          */
         System.out.println("Multi line Comment");
+        // CTRL+D for duplicate line
+
     }
 }

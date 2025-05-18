@@ -1,0 +1,81 @@
+ 1. Java Introduction
+Java is a high-level, object-oriented, platform-independent programming language.
+Follows WORA: Write Once, Run Anywhere.
+Used in web apps, mobile apps (Android), desktop apps, games, etc.
+
+2. Comments in Java
+Single-line: // This is a single-line comment
+
+Multi-line :
+/* This is
+   a multi-line comment */
+
+3. Literals
+Constants used directly in code.
+
+Examples:
+Integer: 10
+Float: 3.14f
+Char: 'A'
+String: "Hello"
+Boolean: true, false
+
+4. Identifiers
+Names for variables, classes, methods.
+Rules:
+Start with a letter, _, or $.
+No keywords allowed.
+Case-sensitive.
+
+5. Data Types
+➤ Primitive types (8 total):
+Integer: byte, short, int, long
+Floating point: float, double
+Character: char
+Boolean: boolean
+
+➤ Non-Primitive types:
+String, Arrays, Classes, Interfaces, etc.
+
+6. Variables
+Containers for storing data.
+Declaration: int age = 25;
+
+7. Constants
+Fixed values, cannot be changed after assignment.
+
+Use final keyword: final double PI = 3.14159;
+
+8. Keywords
+There are 53 Reserved words with special meaning.
+Examples: int, class, if, else, for, return, static, final, etc.
+
+9. Operators and Types
+➤ Arithmetic: +, -, *, /, %
+➤ Relational: ==, !=, >, <, >=, <=
+➤ Logical: &&, ||, !
+➤ Assignment: =, +=, -=, etc.
+➤ Unary: ++, --, +, -, !
+➤ Ternary: condition ? true_value : false_value
+➤ Bitwise: &, |, ^, ~, <<, >>
+
+10. if, if-else, else-if Statements
+if (condition) {
+    // code
+} else if (anotherCondition) {
+    // code
+} else {
+    // code
+}
+
+11. switch Statement
+switch (expression) {
+    case value1:
+        // code
+        break;
+    case value2:
+        // code
+        break;
+    default:
+        // code
+}

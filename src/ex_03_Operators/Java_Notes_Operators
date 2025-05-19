@@ -1,0 +1,27 @@
+Increment and Decrement Operators
+🧠 What Are They?
+Increment (++) increases a variable’s value by 1.
+Decrement (--) decreases a variable’s value by 1.
+
+🧮 Syntax and Types
+Both come in two forms:
+
+1. Pre-Increment / Pre-Decrement :The variable is updated before it's used in the expression.
+++x; // pre-increment
+--x; // pre-decrement
+
+2. Post-Increment / Post-Decrement: The variable is used in the expression before it's updated.
+x++; // post-increment
+x--; // post-decrement
+
+📊 Comparison Table
+Expression	What Happens	Final x	Value Assigned
+x = 5; y = ++x;	x becomes 6, then assigned to y	6	6
+x = 5; y = x++;	y gets 5, then x becomes 6	6	5
+x = 5; y = --x;	x becomes 4, then assigned to y	4	4
+x = 5; y = x--;	y gets 5, then x becomes 4	4	5
+
+⚠️ Things to Remember
+++x and x++ both increase x, but return different values.
+Using x++ or ++x multiple times in a single expression (like x++ + ++x) can lead to undefined behavior in C/C++.
+These operators can also be overloaded in object-oriented languages like C++.

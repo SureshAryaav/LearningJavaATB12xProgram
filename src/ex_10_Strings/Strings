@@ -1,0 +1,19 @@
+🧵 1. What is a String?
+A String is a sequence of characters enclosed in double quotes. "Suresh Aryaav"
+
+String name = "Java";
+String str = "Hello World";
+
+| Method                | Description                             | Example                            |
+| --------------------- | --------------------------------------- | ---------------------------------- |
+| `length()`            | Returns the number of characters        | `str.length()` → 11                |
+| `charAt(int)`         | Returns the character at an index       | `str.charAt(0)` → 'H'              |
+| `toLowerCase()`       | Converts all to lowercase               | `"HELLO".toLowerCase()` → "hello"  |
+| `toUpperCase()`       | Converts all to uppercase               | `"java".toUpperCase()` → "JAVA"    |
+| `substring(int)`      | Substring from index to end             | `str.substring(6)` → "World"       |
+| `substring(int, int)` | Substring between indices               | `str.substring(0, 5)` → "Hello"    |
+| `contains("x")`       | Checks if string contains a sequence    | `str.contains("World")` → true     |
+| `equals()`            | Compares strings exactly                | `"a".equals("A")` → false          |
+| `equalsIgnoreCase()`  | Compares strings ignoring case          | `"a".equalsIgnoreCase("A")` → true |
+| `trim()`              | Removes leading and trailing whitespace | `"  hello  ".trim()` → "hello"     |
+

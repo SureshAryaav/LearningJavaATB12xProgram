@@ -1,0 +1,27 @@
+🔹 1. What Are Loops?
+Loops let you execute a block of code multiple times, reducing code duplication.
+
+1️⃣ for Loop – used when number of iterations is known
+2️⃣ while Loop – used when the condition is evaluated before entering
+3️⃣ do-while Loop – executes at least once, condition checked after
+
+⚠️ Common Mistakes
+Infinite loop due to missing i++ or wrong condition
+while (true) without a break
+Forgetting braces {} for multiple lines
+
+Q: Difference between for and while loop?
+for: best when you know how many times to loop
+while: better when the condition depends on logic at runtime
+
+Q: When does a do-while loop execute even if the condition is false?
+A: Always executes once before checking the condition.
+
+🔁 What Are Nested Loops?
+A nested loop means a loop inside another loop. The inner loop runs completely every time the outer loop runs once.
+
+Q1: What is the time complexity of nested loops?
+A: O(n^2) if both inner and outer loop run n times.
+
+Q2: Can we use different loop types together (e.g., for + while)?
+A: Yes, nested loops can mix for, while, and do-while.

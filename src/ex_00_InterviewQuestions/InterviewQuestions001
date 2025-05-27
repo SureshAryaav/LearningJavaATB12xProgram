@@ -1,0 +1,76 @@
+Q1. What is the main method in Java?
+A: It's the entry point of any Java application.
+public static void main(String[] args) { }
+
+Q2. What is the file extension of a Java source file?
+A: .java (compiled to .class by the compiler)
+
+Q3. What are the main data types in Java?
+A: Primitive: int, float, double, char, boolean, byte, short, long
+   Non-Primitive: String, Arrays, Objects, etc.
+
+Q4. What is the difference between int and Integer?
+A: int is a primitive type; Integer is a wrapper class (object).
+
+Q5. What are the types of operators in Java?
+Arithmetic: + - * / %
+Relational: == != > < >= <=
+Logical: && || !
+Assignment: = += -= *=
+
+Q6. What is type casting?
+Converting one data type into another:
+Implicit (Widening): int to long
+Explicit (Narrowing): double to int → int a = (int) 5.67;
+
+Q7. How does the if-else statement work in Java?
+A: It evaluates a boolean condition and runs code accordingly.
+if (marks >= 50) {
+   System.out.println("Pass");
+} else {
+   System.out.println("Fail");
+}
+
+Q8. Can we nest if statements?
+A: Yes. if inside another if block is called nested if.
+
+Q9. How do you declare and initialize an array in Java?
+int[] nums = new int[5];  // declaration
+int[] values = {1, 2, 3}; // initialization
+
+Q10. How do you find the length of an array?
+A: array.length
+
+Q11. Are strings mutable in Java?
+A: No. Strings are immutable. Any change creates a new string.
+
+Q12. What are some common String methods?
+length()
+charAt(index)
+substring(start, end)
+equals(), equalsIgnoreCase()
+contains(), indexOf()
+toLowerCase(), toUpperCase()
+
+Q13. How do you take user input in Java?
+Scanner sc = new Scanner(System.in);
+int a = sc.nextInt();
+String s = sc.nextLine();
+
+Q14. When do you use switch over if-else?
+Use switch when you have multiple constant values to check against a variable.
+
+Q15. Write a simple switch example.
+switch (day) {
+  case 1: System.out.println("Mon"); break;
+  case 2: System.out.println("Tue"); break;
+  default: System.out.println("Other day");
+}
+
+Q16. What is the difference between == and .equals() for Strings?
+== checks memory reference (address)
+.equals() checks actual content/value
+
+Q17. What happens if you divide by zero in Java?
+For integers → ArithmeticException
+For doubles → Infinity

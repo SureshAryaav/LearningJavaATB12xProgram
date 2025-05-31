@@ -1,5 +1,32 @@
 🧵 1. What is a String?
 A String is a sequence of characters enclosed in double quotes. "Suresh Aryaav"
+NonPrimitive Datatype
+String is Built-in jav.lang String package - Provided by JAVA
+
+String is FINAL Class
+
+Mutuable - can change/Modify
+Immutable  - Cannot be change
+
+
+String Storage:
+1. String Constant pool
+2. Heap Area ( Object)
+
+#### How to create the strings in Java?
+String name = "Pramod"; -> String Constant Pool
+String name2 = new String("Pramod"); -> Heap Area ( Object)
+Stringbuffer
+StringBuilder
+toCharArray()
+
+### **How can String be represented?**
+1. **String Class**
+2. String Buffer
+3. String Builder
+4. Array of Characters (collection of chars)
+5. ArrayList of Characters
+
 
 String name = "Java";
 String str = "Hello World";
